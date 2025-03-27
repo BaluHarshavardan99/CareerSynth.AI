@@ -3,7 +3,7 @@
 
 CareerSynth.AI is a **next-generation career development platform** that leverages advanced AI to simplify job hunting—from crafting the perfect resume to acing interviews. No more juggling tools—everything you need is in **one intelligent, adaptive platform**.  
 
-🌐 **Try it now**: [https://careersynth.ai](https://lnkd.in/g8D-bdv7)  
+🌐 **Try it now**: [https://careersynth.ai](https://careersynth-ai.netlify.app/)  
 
 ---
 
@@ -33,25 +33,39 @@ Job searching is broken. Candidates waste time tweaking resumes, guessing interv
 ---
 
 ## 🛠️ **Under the Hood**  
-- **AI Models**: GPT-4, LangChain, or fine-tuned LLMs for hyper-personalization.  
-- **Resume Parsing**: NLP-driven extraction of skills, experience, and achievements.  
-- **Dynamic ATS Optimization**: Real-time keyword and formatting adjustments.  
 
-*(You can adjust this based on your actual tech stack.)*  
+### **AI & Backend**  
+⚡ **LLM Powerhouse**:  
+- Meta's **Llama 3.3** & **DeepSeek v3** for hyper-personalized career guidance  
+- Hybrid AI routing to optimize cost/performance  
+
+🚀 **Backend**:  
+- **FastAPI** (Python) hosted on **Google Cloud Platform (GCP)**  
+- Scalable microservices architecture  
+
+### **Frontend**  
+🖥️ **React** + **Material UI**  
+- Responsive, ATS-friendly resume templates  
+- Real-time AI feedback UI  
+
+### **Infrastructure**  
+🔧 **CI/CD**: GitHub Actions for seamless deployments  
+📡 **APIs**: Secure, low-latency connections between LLMs and frontend  
+
 
 ---
 
 ## 📜 **License**  
-MIT © [Your Name] | **CareerSynth.AI**  
+MIT © [Balu Harshavardan Koduru] | **CareerSynth.AI**  
 
 ---
 
 ## 🌟 **Get Involved**  
-- **Give Feedback**: Help us improve! [Contact Us](mailto:your-email@example.com).  
+- **Give Feedback**: Help us improve! [Contact Us](https://careersynth-ai.netlify.app/contact).  
 - **Star ⭐ the Repo**: If you find this project useful!  
 - **Share**: Spread the word to job seekers who need this!  
 
-🔗 **Links**: [Website](https://careersynth.ai) | [Demo Video](https://youtu.be/demo-link)  
+🔗 **Links**: [Website](https://careersynth-ai.netlify.app/) | [Demo Video](https://www.youtube.com/watch?v=7f7psp1mZSk)  
 
 ---
 
