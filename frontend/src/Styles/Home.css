@@ -1,0 +1,121 @@
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-container.light .hero-content .cta-button {
+  color: black;
+}
+
+.home-container.dark .hero-content .cta-button {
+  color: white;
+}
+
+.interactive-cube {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero-content h1 {
+  font-size: clamp(2rem, 5vw, 4rem); /* Adjust font size based on screen width */
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-content p {
+  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Adjust font size dynamically */
+  margin-bottom: 1.5rem;
+  transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.cta-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #0078d7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05); /* Add a slight hover effect */
+}
+
+.threejs-canvas {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+}
+
+/* Media queries for responsiveness */
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  .hero-content {
+    top: 55%; /* Adjust for better alignment on small screens */
+    padding: 0.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 900px) {
+  .hero-content h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Large screens (desktops) */
+@media (min-width: 1200px) {
+  .hero-content {
+    max-width: 60%; /* Limit content width for readability */
+  }
+
+  .hero-content h1 {
+    font-size: clamp(3rem, 4vw, 4.5rem);
+  }
+
+  .hero-content p {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,15 @@
+[build]
+  # Directory where your site is built and deployed from (e.g., "build" for React, "dist" for Vue)
+  publish = "build"
+  # Command to build your project (if needed)
+  command = "npm run build"
+
+[dev]
+  # Optional: Port to run the local Netlify dev server
+  port = 8888
+
+[[redirects]]
+  # Redirect all routes to index.html for SPAs
+  from = "/*"
+  to = "/index.html"
+  status = 200

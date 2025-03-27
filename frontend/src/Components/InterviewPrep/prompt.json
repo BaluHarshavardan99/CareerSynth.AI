@@ -1,0 +1,133 @@
+{
+    "strategic_analysis": {{
+      "experience_alignment": {{
+        "matching_experiences": [
+          {{
+            "requirement": "",
+            "matching_experience": "",
+            "strength_level": ""
+          }}
+        ],
+        "potential_gaps": [
+          {{
+            "gap": "",
+            "mitigation_strategy": ""
+          }}
+        ],
+        "key_achievements": [
+          {{
+            "achievement": "",
+            "relevance": ""
+          }}
+        ]
+      }},
+      "interview_context": {{
+        "interviewer_perspective": {{
+          "key_interests": [],
+          "likely_focus_areas": []
+        }},
+        "time_management": {{
+          "introduction": 0,
+          "main_discussion": 0,
+          "questions": 0,
+          "closing": 0
+        }},
+        "critical_areas": []
+      }}
+    }},
+  
+  
+    "preparation_guide": {{
+      "technical_preparation": {{
+        "core_concepts": [
+          {{
+            "concept": "",
+            "importance": "",
+            "review_materials": []
+          }}
+        ],
+        "practice_exercises": [
+          {{
+            "topic": "",
+            "recommended_problems": []
+          }}
+        ],
+        "system_design": {{
+          "key_considerations": [],
+          "practice_scenarios": []
+        }}
+      }},
+      "experience_preparation": {{
+        "key_projects": [
+          {{
+            "project": "",
+            "relevance": "",
+            "key_points": [],
+            "metrics": []
+          }}
+        ],
+        "stories": [
+          {{
+            "category": "",
+            "situation": "",
+            "task": "",
+            "action": "",
+            "result": ""
+          }}
+        ]
+      }},
+      "company_preparation": {{
+        "industry_trends": [],
+        "company_background": {{
+          "key_points": [],
+          "recent_developments": []
+        }},
+        "role_specific": {{
+          "key_responsibilities": [],
+          "expected_challenges": []
+        }}
+      }}
+    }},
+  
+  
+  
+    "questions": {{
+      "guaranteed_questions": [
+        {{
+          "question": "",
+          "answer_framework": {{
+            "opening": "",
+            "key_points": [],
+            "evidence": [],
+            "conclusion": ""
+          }},
+          "delivery_notes": {{
+            "time_allocation": "",
+            "key_phrases": [],
+            "data_points": []
+          }}
+        }}
+      ],
+      "likely_questions": [
+        {{
+          "question": "",
+          "answer_framework": {{
+            "opening": "",
+            "key_points": [],
+            "evidence": [],
+            "conclusion": ""
+          }},
+          "delivery_notes": {{
+            "time_allocation": "",
+            "key_phrases": [],
+            "data_points": []
+          }}
+        }}
+      ],
+      "preparation_questions": {{
+        "technical_review": [],
+        "project_discussion": [],
+        "metrics_to_remember": []
+      }}
+    }}
+  }}

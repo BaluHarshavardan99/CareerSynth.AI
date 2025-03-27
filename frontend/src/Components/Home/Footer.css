@@ -1,0 +1,12 @@
+.footer-container {
+    background-color: #282c34; /* Dark background color */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer-container p {
+    margin: 0.5rem 0;
+  }
+  
